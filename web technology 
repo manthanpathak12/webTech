@@ -1,0 +1,48 @@
+<!doctype>
+<html>
+
+    <head>
+        <title>my web page</title>
+    </head>
+
+<body>
+
+    <table border="1">
+
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+
+        <tr>
+            <tbody>
+                <td>Rahul</td>
+                <td>BTECH</td>
+                <td>rahul@gmail.com</td>
+            </tbody>
+        </tr>
+
+        <tr>
+            <tbody>
+                <td>Priya</td>
+                <td>BCA</td>
+                <td>priya@gmail.com</td>
+            </tbody>
+        </tr>
+
+        <tr>
+            <tbody>
+                <td>naina</td>
+                <td>BCA</td>
+                <td>naina@gmail.com</td>
+            </tbody>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
