@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Font Styles and Image Tag</title>
+    <style>
+        body { background-image: url(sd.png);  font-family: Georgia, serif; margin: 40px; background-color: #fdfdfd; }
+        .topbar a { margin-right: 15px; text-decoration: none; color:rgb(238, 153, 238); font-weight: bold; }
+        section { margin-bottom: 25px; border-bottom: 1px solid #ccc; padding-bottom: 15px; }
+        img { border: 2px solid #eed4e8; border-radius: 6px; }
+    </style>
+</head>
+<body>
+
+    <div class="topbar">
+        <a href="index.html">Home</a>
+        <a href="#fonts">Jump to Font Styles</a>
+        <a href="#image">Jump to Image Tag</a>
+    </div>
+
+    <h1>Font Styles and Image Tag</h1>
+
+    <section id="fonts">
+        <h2>Font Styles</h2>
+        <p>Font appearance can be changed using CSS properties like <b>font-family</b>, <b>font-size</b>, and <b>color</b>, applied inline with the <b>style</b> attribute.</p>
+
+        <p style="font-family: 'Courier New', monospace;">This text uses font-family: 'Courier New', monospace.</p>
+        <p style="font-family: 'Comic Sans MS', cursive;">This text uses font-family: 'Comic Sans MS', cursive.</p>
+        <p style="font-family: Arial, sans-serif; font-size: 20px; color:crimson;">This text uses font-family: Arial with font-size: 20px and color: #b30000.</p>
+        <p style="font-family: 'Times New Roman', serif; font-style: italic;">This text uses font-family: Times New Roman with font-style: italic.</p>
+    </section>
+
+    <section id="image">
+        <h2>Image Tag </h2>
+        <p>tag is used to insert images. It is a self-closing tag with important attributes:</p>
+        <ul>
+            <li><b>src</b> - path or URL of the image (required)</li>
+            <li><b>alt</b> - alternate text shown if image fails to load</li>
+            <li><b>width</b> / <b>height</b> - dimensions of the image</li>
+            <li><b>title</b> - tooltip text shown on hover</li>
+        </ul>
+
+        <img src="download.png"
+             alt="Sample placeholder image"
+             width="250" height="150"
+             title="This is a sample image">
+    </section>
+
+    <a href="index.html">&#8592; Back to Home</a>
+
+</body>
+</html>
